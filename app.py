@@ -10,6 +10,8 @@ def home():
         "status": "ok",
         "mensaje": "Backend de Aragosand funcionando en Render"
     })
+    
+    
 
 @app.route('/health')
 def health():
